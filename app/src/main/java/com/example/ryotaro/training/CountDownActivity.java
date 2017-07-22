@@ -1,5 +1,8 @@
 package com.example.ryotaro.training;
 
+import android.media.AudioManager;
+import android.media.MediaPlayer;
+import android.media.ToneGenerator;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.provider.Settings;
@@ -23,9 +26,14 @@ public class CountDownActivity extends AppCompatActivity {
             }
 
             public void onFinish() {
+                ToneGenerator toneGenerator
+                        = new ToneGenerator(AudioManager.STREAM_SYSTEM, ToneGenerator.MAX_VOLUME);
+                toneGenerator.startTone(ToneGenerator.TONE_PROP_BEEP);
                 textView.setText("done!");
             }
         }.start();
+
+
     }
 }
 

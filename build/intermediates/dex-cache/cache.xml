@@ -3,156 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/takuya/.android/build-cache/df4ec28c86d3a0b18aa841873a4af1597894d5e1/output/jars/classes.jar"
+        jar="/Users/Kanazawa/gitstudy/Trial/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="/Users/takuya/Trial/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f37d41d93d6392c7ceb2f21df0f126a30f7c7782/classes.dex" />
+        sha1="ebc3b5abd58cf3ae2019eb9b9936f550b3c934e7">
+        <dex dex="/Users/Kanazawa/gitstudy/Trial/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ac4c017c9517dd41045ab284c649a8c73a5025ec/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/takuya/.android/build-cache/49190322db16beb9e38d1f771f9ad2ae36784d27/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="952944218ecedea1554a513dec0c14d570642843">
-        <dex dex="/Users/takuya/Trial/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_61ee422afe5d97c0ad28d13fcbc5ac89e730f9ea/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/takuya/.android/build-cache/c3e3a51b14f574f43103950c5f3c63e6b19cd580/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="/Users/takuya/Trial/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ffa49bd4a76f3359efd842755f5709118cfc7e12/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/takuya/.android/build-cache/91ba8d3a581c286503c9ba6fc646f762dc53a8ec/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="/Users/takuya/Trial/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_35651968ac2b32879c39de88878046ad0522617c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/takuya/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/Users/takuya/Trial/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_db3f54a1c75bd9f2ffdd5d09632a062de4cc5e57/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/takuya/Trial/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/Kanazawa/gitstudy/Trial/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/takuya/Trial/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_fbb2bd044ea77a627b557a2e138f7bec8ad2eac3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/takuya/Trial/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="a432ee703600a70a19eaba5492f62940d6ad6d47">
-        <dex dex="/Users/takuya/Trial/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_91441944d411d60894ea1b9fdb79d565d7f6405f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/takuya/.android/build-cache/e34dafb75edaad95f347921f57a40b88e6411a11/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
-        <dex dex="/Users/takuya/Trial/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2f989be8c9a19b9b2ed209c1e26cf51cd554db98/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/takuya/.android/build-cache/43fb6522b1cb728fbb0547fd63322ff6f571003b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
-        <dex dex="/Users/takuya/Trial/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c9dfea738470fc2dfdc40a35e4ab1d1f7aa551b0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/takuya/.android/build-cache/8044b2928f440b8735449c0b7682a256cd954d76/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
-        <dex dex="/Users/takuya/Trial/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_108fd26b1c6522be9abfb0b2e6b327e2295f2192/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/takuya/.android/build-cache/985e1cb0b9f6eacb7daed6bfeeea6766927d91d2/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="9935891f23923f39d002087085d9696568a9f657">
-        <dex dex="/Users/takuya/Trial/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dcfd6ed958e8f1d3fc740e77587ff56cfaf2ad92/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/takuya/.android/build-cache/851ba402f82a4fef0bf80d5fc9f69bab1b7f1713/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
-        <dex dex="/Users/takuya/Trial/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_20a438faa68864fdac0a23c6b73fe2e8fa8ef2c5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/takuya/.android/build-cache/c8648305fe15b7d06fc8b3c9490f3ac7f8c00acf/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/takuya/Trial/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_faba57a2459feece8bf73b3a6d4f67abf3f56a2b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/takuya/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="/Users/takuya/Trial/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_25203533ea8fd1e855e73afc6a2b45b20843caf9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/takuya/.android/build-cache/c9487ff38cc5a57158a15a5d94b915b492d1196c/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/Users/takuya/Trial/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1beab03a770544b1152aac6752a12598449d20c9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/takuya/.android/build-cache/87fd54e1bac02982a6802cde05b2cc4290effbcf/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
-        <dex dex="/Users/takuya/Trial/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_43496d4a04202ff611175f9984a39d556c43061f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/takuya/.android/build-cache/6052e032527f2a888bd72b407d88d70c5bad707f/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.0"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="/Users/takuya/Trial/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4c28a01c9e52daeb25499c614291b268fa22d628/classes.dex" />
+        <dex dex="/Users/Kanazawa/gitstudy/Trial/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_63b7ecd9e9c2fe7327c44a769dc02f9e21c0c71d/classes.dex" />
     </item>
 
 </items>
