@@ -1,5 +1,6 @@
 package com.example.ryotaro.training;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.support.design.widget.FloatingActionButton;
@@ -38,7 +39,10 @@ public class MainActivity extends AppCompatActivity {
                         textView.setText("done!");
                     }
                 }.start();
+                Intent intent = new Intent(MainActivity.this, CountDownActivity.class);
+                startActivity(intent);
             }
         });
     }
 }
+
