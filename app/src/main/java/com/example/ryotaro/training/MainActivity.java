@@ -10,6 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,12 +24,19 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // クリック時の処理
                 EditText edt = (EditText)findViewById(R.id.editText2);
-                edt.getText().toString();
+                String str = edt.getText().toString();
+                TextView textView = (TextView)findViewById(R.id.textView);
+                int time = 10;
+                for (int i=0; i< time; i++) {
+                    textView.setText(Integer.toString(time-i));
+                    try {
+                        Thread.sleep(1000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+
             }
         });
     }
-
-
-
-
 }
