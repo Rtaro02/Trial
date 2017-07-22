@@ -1,6 +1,7 @@
 package com.example.ryotaro.training;
 
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -25,17 +26,17 @@ public class MainActivity extends AppCompatActivity {
                 // クリック時の処理
                 EditText edt = (EditText)findViewById(R.id.editText2);
                 String str = edt.getText().toString();
-                TextView textView = (TextView)findViewById(R.id.textView);
-                int time = 10;
-                for (int i=0; i< time; i++) {
-                    textView.setText(Integer.toString(time-i));
-                    try {
-                        Thread.sleep(1000);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                }
 
+                new CountDownTimer(10 * 1000, 1 * 1000) {
+                    TextView textView = (TextView)findViewById(R.id.textView);
+                    public void onTick(long millisUntilFinished) {
+                        textView.setText(Long.toString(millisUntilFinished /1000));
+                    }
+
+                    public void onFinish() {
+                        textView.setText("done!");
+                    }
+                }.start();
             }
         });
     }
