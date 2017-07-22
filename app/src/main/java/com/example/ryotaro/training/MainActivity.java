@@ -29,17 +29,8 @@ public class MainActivity extends AppCompatActivity {
                 EditText edt = (EditText)findViewById(R.id.editText2);
                 int number = Integer.valueOf(edt.getText().toString());
 
-                new CountDownTimer(number * 1000, 100) {
-                    TextView textView = (TextView)findViewById(R.id.textView);
-                    public void onTick(long millisUntilFinished) {
-                        textView.setText(Long.toString(Math.round(millisUntilFinished*0.001)));
-                    }
-
-                    public void onFinish() {
-                        textView.setText("done!");
-                    }
-                }.start();
                 Intent intent = new Intent(MainActivity.this, CountDownActivity.class);
+                intent.putExtra("number", number);
                 startActivity(intent);
             }
         });
