@@ -12,6 +12,7 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,12 +26,12 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // クリック時の処理
                 EditText edt = (EditText)findViewById(R.id.editText2);
-                String str = edt.getText().toString();
+                int number = Integer.valueOf(edt.getText().toString());
 
-                new CountDownTimer(10 * 1000, 1 * 1000) {
+                new CountDownTimer(number * 1000, 100) {
                     TextView textView = (TextView)findViewById(R.id.textView);
                     public void onTick(long millisUntilFinished) {
-                        textView.setText(Long.toString(millisUntilFinished /1000));
+                        textView.setText(Long.toString(Math.round(millisUntilFinished*0.001)));
                     }
 
                     public void onFinish() {
